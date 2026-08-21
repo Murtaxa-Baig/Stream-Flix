@@ -29,7 +29,6 @@ export default function ContactForm() {
         setIsSubmitting(true);
         setSubmitStatus({ type: null, message: "" });
 
-        // Split name into first and last for the API if only one field is provided, or just pass it as firstName
         const nameParts = formData.firstName.split(" ");
         const firstName = nameParts[0];
         const lastName = nameParts.length > 1 ? nameParts.slice(1).join(" ") : " ";
