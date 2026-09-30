@@ -8,7 +8,6 @@ import Link from "next/link";
 export default function DeleteAccount() {
     const router = useRouter();
     const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
     const [reason, setReason] = useState("");
     const [customReason, setCustomReason] = useState("");
     const [confirmed2, setConfirmed2] = useState(false);
@@ -23,7 +22,7 @@ export default function DeleteAccount() {
     };
 
     const finalReason = reason === "other" ? customReason : reason;
-    const isFormValid = email && password && reason && (reason !== "other" || customReason) && confirmed2;
+    const isFormValid = email && reason && (reason !== "other" || customReason) && confirmed2;
 
     const handleDeleteClick = () => {
         if (!isFormValid) {
@@ -43,7 +42,7 @@ export default function DeleteAccount() {
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({ email, password, reason: finalReason }),
+                body: JSON.stringify({ email, reason: finalReason }),
             });
 
             const data = await response.json();
@@ -230,19 +229,7 @@ export default function DeleteAccount() {
                                             </motion.label>
                                         )}
 
-                                        <label className="flex flex-col w-full">
-                                            <p className="text-[#131118] dark:text-white text-sm font-semibold leading-normal pb-2">
-                                                Confirm your password
-                                            </p>
-                                            <input
-                                                value={password}
-                                                onChange={(e) => setPassword(e.target.value)}
-                                                className="form-input flex w-full rounded-lg text-[#131118] dark:text-gray-200 focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 h-12 px-4 text-sm font-normal leading-normal placeholder:text-gray-400 dark:placeholder:text-gray-600"
-                                                placeholder="Enter your current password"
-                                                type="password"
-                                                required
-                                            />
-                                        </label>
+
                                     </div>
 
                                     <div className="flex flex-col gap-3 pt-6">

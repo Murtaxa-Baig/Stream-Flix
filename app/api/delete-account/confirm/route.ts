@@ -12,7 +12,7 @@ export async function POST(request: Request) {
             );
         }
 
-        const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://voice-lab-backend-production.up.railway.app";
+        const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://stream-flix-backend-production.up.railway.app";
         const apiUrl = `${baseUrl}/api/v1/users/web-delete-confirm`;
 
         const response = await fetch(apiUrl, {

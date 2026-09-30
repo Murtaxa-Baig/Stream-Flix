@@ -4,38 +4,38 @@ import { motion } from "framer-motion";
 
 const features = [
   {
-    title: "Movie Information Explorer",
-    description: "Explore full details about any movie, including cast, crew, release dates, ratings, and where to stream them.",
-    icon: "movie",
-    details: ["Cast & Crew Details", "Ratings & Reviews", "Streaming Availability"],
+    title: "Multi-Browser Search",
+    description: "Perform your query across multiple search engines and browsers simultaneously in one go, saving you valuable time.",
+    icon: "search",
+    details: ["Simultaneous Queries", "Multi-Engine Support", "Unified Search Screen"],
     gradient: "brand-gradient"
   },
   {
-    title: "AI-Based Recommendations",
-    description: "Get personalized movie recommendations driven by advanced AI models that learn your unique cinematic tastes.",
-    icon: "auto_awesome",
-    details: ["Taste-Based Discovery", "Mood & Genre Matching", "Interactive AI Suggestions"],
+    title: "In-App WebView Integration",
+    description: "When you search, Google Search automatically opens WebViews for all selected browsers and runs them seamlessly inside the app.",
+    icon: "web",
+    details: ["Parallel WebViews", "Direct In-App Results", "Smooth Browser Switching"],
     gradient: "identity-gradient"
   },
   {
-    title: "Spoiler-Selective Summaries",
-    description: "Read concise summaries of movies. Choose between spoiler-free summaries to build anticipation, or full spoilers if you want to know everything.",
-    icon: "description",
-    details: ["Spoiler-Free Overview", "Full Plot Breakdown", "User-Controlled Spoilers"],
+    title: "Offline AI Search Mode",
+    description: "Search offline anytime. Download our advanced AI model directly inside the app to get instant search responses based on your parameters.",
+    icon: "cloud_off",
+    details: ["Offline Local AI Model", "Parameter-Based Responses", "Premium Members Exclusive"],
     gradient: "brand-gradient"
   },
   {
-    title: "Location-Based Discovery",
-    description: "Enable location permissions to discover regional viewing trends, localized streaming availability, and nearby cinema showtimes.",
+    title: "Location-Based Results",
+    description: "Enable location permissions to automatically receive localized search trends, nearby recommendations, and regional search optimizations.",
     icon: "location_on",
-    details: ["Local Cinema Showtimes", "Regional Streaming Availability", "Localized Movie Trends"],
+    details: ["Localized Content Access", "Regional Trends Insights", "Precise Location Context"],
     gradient: "identity-gradient"
   },
   {
-    title: "Profile Customization",
-    description: "Personalize your account and profile page. Enable media library permission to securely upload and update your custom profile picture or avatar.",
+    title: "Profile & Avatar Upload",
+    description: "Customize your user profile inside the app. Securely upload and update your custom profile picture with gallery permission.",
     icon: "photo_library",
-    details: ["Secure Profile Pictures", "Instant Avatar Upload", "Custom Visual Identity"],
+    details: ["Gallery Upload Permission", "Custom Avatar Picture", "Personalized Settings Control"],
     gradient: "brand-gradient"
   }
 ];
@@ -51,10 +51,10 @@ export default function Features() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-[#131118] dark:text-white mb-4">
-            Advanced Movie Discovery Features
+            Powerful Multi-Browser Search Features
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Everything you need to explore films, get AI recommendations, and manage your custom movie profile.
+            Everything you need to search simultaneously, run in-app web views, search offline with local AI models, and customize your experience.
           </p>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

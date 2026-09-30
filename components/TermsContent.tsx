@@ -109,10 +109,10 @@ export default function TermsContent() {
                 </p>
                 <div className="grid md:grid-cols-2 gap-3">
                   {[
-                    "Attempt to scrape, harvest, or crawl movie database information from the Service",
-                    "Use AI recommendation queries to generate harmful, offensive, or harassing queries",
-                    "Circumvent spoiler filters or abuse the spoiler selection module",
-                    "Attempt to reverse engineer the recommendation models or software",
+                    "Attempt to scrape, harvest, or crawl search database details from the Service in a manner that violates third-party search engine policies",
+                    "Use search queries to generate harmful, offensive, or harassing content",
+                    "Circumvent search parameters or abuse the offline model downloads",
+                    "Attempt to reverse engineer the search models or software",
                     "Infringe upon third-party intellectual property or copy original layouts",
                   ].map((item, i) => (
                     <div
@@ -153,7 +153,7 @@ export default function TermsContent() {
                 </p>
                 <ul className="space-y-2 text-gray-600 dark:text-gray-400 pl-4">
                   <li>• Indirect or consequential damages</li>
-                  <li>• Inaccuracy of AI-generated summaries or recommendations</li>
+                  <li>• Inaccuracy of search results or offline AI-generated responses</li>
                   <li>• Technical interruptions or data loss</li>
                 </ul>
               </>

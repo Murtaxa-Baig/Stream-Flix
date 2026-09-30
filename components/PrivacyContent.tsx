@@ -214,15 +214,15 @@ export default function PrivacyContent() {
                 <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-purple"></span>
-                    <span>Movie search history and viewed titles</span>
+                    <span>Search query logs and browser selections</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-purple"></span>
-                    <span>Spoiler settings and summary preference selections</span>
+                    <span>Browser settings and model download configurations</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-purple"></span>
-                    <span>AI recommendation history and feedback ratings</span>
+                    <span>Offline search query history and rating feedback</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-purple"></span>
@@ -235,29 +235,29 @@ export default function PrivacyContent() {
                 </ul>
               </div>
 
-              {/* Movie & Preferences Data */}
+              {/* Search & Browser Data */}
               <div className="p-6 rounded-2xl bg-white dark:bg-[#151224] border border-gray-100 dark:border-gray-800/80 shadow-sm space-y-4">
                 <div className="flex items-center gap-3 text-brand-blue">
-                  <span className="material-symbols-outlined p-2 rounded-xl bg-brand-blue/10">movie</span>
-                  <h3 className="font-bold text-lg text-[#131118] dark:text-white">Movie & Preferences Data</h3>
+                  <span className="material-symbols-outlined p-2 rounded-xl bg-brand-blue/10">search</span>
+                  <h3 className="font-bold text-lg text-[#131118] dark:text-white">Search & Browser Data</h3>
                 </div>
                 <p className="text-xs text-gray-500">Depending on features used, we may temporarily process:</p>
                 <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-blue"></span>
-                    <span>Movie names or keywords entered for summaries</span>
+                    <span>Search queries or keywords entered</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-blue"></span>
-                    <span>Spoiler preference state (with or without spoilers)</span>
+                    <span>Browser selection state</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-blue"></span>
-                    <span>AI-generated custom recommendations and summaries</span>
+                    <span>AI-generated local search responses</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-brand-blue"></span>
-                    <span>Saved custom movie lists, watchlists, and favorite genres</span>
+                    <span>Saved custom browser profiles and search parameters</span>
                   </li>
                 </ul>
               </div>
@@ -284,7 +284,7 @@ export default function PrivacyContent() {
                     <strong>Media Library Access:</strong> Used solely for updating user profile pictures. We do not inspect other photos or upload unauthorized content.
                   </p>
                   <p>
-                    <strong>Location Access:</strong> Required to enable location-based features, localized streaming platform availability, regional cinema listings, and regional popularity trends. We protect your coordinates and never share your locations.
+                    <strong>Location Access:</strong> Required to enable location-based features, localized search engine queries, regional search trends, and local context results. We protect your coordinates and never share your locations.
                   </p>
                 </div>
               </div>
@@ -313,12 +313,12 @@ export default function PrivacyContent() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
                   { text: "Create and manage user accounts & profiles", icon: "manage_accounts" },
-                  { text: "Provide detailed movie information & ratings", icon: "movie" },
-                  { text: "Generate AI-based movie recommendations", icon: "auto_awesome" },
-                  { text: "Deliver custom spoiler-controlled summaries", icon: "description" },
-                  { text: "Provide location-based listings & local streaming info", icon: "location_on" },
+                  { text: "Provide simultaneous search results and browser views", icon: "search" },
+                  { text: "Generate offline AI-based search responses", icon: "auto_awesome" },
+                  { text: "Deliver in-app WebView browser experiences", icon: "web" },
+                  { text: "Provide location-based search trends & regional search results", icon: "location_on" },
                   { text: "Manage subscriptions and premium feature access", icon: "credit_card" },
-                  { text: "Track search and taste history to refine suggestions", icon: "history" },
+                  { text: "Track search logs to refine local offline AI models", icon: "history" },
                   { text: "Prevent fraud, abuse, or unauthorized access", icon: "shield_lock" },
                   { text: "Provide customer support and technical assistance", icon: "contact_support" },
                 ].map((item, idx) => (
@@ -359,7 +359,7 @@ export default function PrivacyContent() {
                   </p>
                   <div className="p-4 rounded-xl bg-primary/5 border border-primary/10 text-center">
                     <div className="text-3xl font-black text-primary">3-Day Free Trial</div>
-                    <div className="text-xs text-[#6b608a] dark:text-[#a097bd] mt-1">Explore Unlimited Movie Discoveries</div>
+                    <div className="text-xs text-[#6b608a] dark:text-[#a097bd] mt-1">Explore Unlimited Search Queries</div>
                   </div>
                 </div>
 
@@ -399,7 +399,7 @@ export default function PrivacyContent() {
                   <div className="p-4 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 space-y-2">
                     <h4 className="font-bold text-sm text-[#131118] dark:text-white">AI-Powered Premium Features</h4>
                     <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">
-                      AI movie recommendations and selective-spoiler summaries are advanced features. Subscriptions grant users unlimited requests to these AI movie models. Account access levels can be updated directly within the application.
+                      Offline AI search and simultaneous browser search are advanced features. Subscriptions grant users unlimited requests to these search features and local AI models. Account access levels can be updated directly within the application.
                     </p>
                   </div>
 
@@ -470,7 +470,7 @@ export default function PrivacyContent() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {[
                   { label: "User Consent", desc: "Given when enabling device permissions or submitting search requests.", icon: "done_all" },
-                  { label: "Contractual Necessity", desc: "Required to deliver movie recommendations & summaries.", icon: "handshake" },
+                  { label: "Contractual Necessity", desc: "Required to deliver search results and offline AI model responses.", icon: "handshake" },
                   { label: "Legitimate Interests", desc: "Improving platform security, performance & recommendations.", icon: "troubleshoot" },
                   { label: "Legal Compliance", desc: "Meeting legal records, audits, or regulatory demands.", icon: "gavel" }
                 ].map((basis, idx) => (
@@ -512,7 +512,7 @@ export default function PrivacyContent() {
                       <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-blue-500/10 text-blue-500">AI Processing</span>
                     </div>
                     <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">
-                      Used for movie search analysis, recommendations, and custom summaries. Any data processed through our AI providers (such as OpenAI) is governed by their own privacy policies.
+                      Used for search analysis, multi-browser query dispatching, and offline AI model responses.
                     </p>
                   </div>
 
@@ -592,17 +592,17 @@ export default function PrivacyContent() {
             <div className="p-6 rounded-2xl bg-white dark:bg-[#151224] border border-gray-100 dark:border-gray-800/80 shadow-sm space-y-6">
               <div className="flex items-center gap-3 text-primary">
                 <span className="material-symbols-outlined p-2 rounded-xl bg-primary/10">auto_awesome</span>
-                <h3 className="font-bold text-lg text-[#131118] dark:text-white">AI Movie Processing Details</h3>
+                <h3 className="font-bold text-lg text-[#131118] dark:text-white">AI Search Processing Details</h3>
               </div>
               <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                To provide our AI movie recommendations and customizable summaries, we process search keywords, movie titles, and preferences in partnership with third-party providers under strict privacy guidelines:
+                To provide our offline AI search responses and customizable multi-browser queries, we process search keywords and preferences under strict privacy guidelines:
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2">
                 <div className="p-4 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 space-y-1">
                   <span className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider">Data Sent</span>
                   <p className="text-sm font-semibold text-gray-800 dark:text-gray-200">
-                    Search keywords, movie names, preferred genres, and spoiler setting selections.
+                    Search queries, selected browsers, and model settings.
                   </p>
                 </div>
 
@@ -623,7 +623,7 @@ export default function PrivacyContent() {
                 <div className="p-4 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 space-y-1">
                   <span className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider">User Consent</span>
                   <p className="text-sm font-semibold text-gray-800 dark:text-gray-200">
-                    Data is processed only when you actively request recommendations or movie summaries.
+                    Data is processed only when you actively request searches or run offline AI queries.
                   </p>
                 </div>
 
@@ -671,7 +671,7 @@ export default function PrivacyContent() {
                 ))}
               </div>
               <div className="p-4 bg-primary/5 rounded-xl border border-primary/10 text-xs text-primary leading-relaxed">
-                <strong>Movie search cleanup:</strong> General queries and temporary session choices are deleted from intermediate servers after completion. Saved watchlists and profiles are stored securely in databases and deleted immediately upon request.
+                <strong>Search log cleanup:</strong> General search queries and temporary session choices are deleted from intermediate servers after completion. Saved profiles and configurations are stored securely in databases and deleted immediately upon request.
               </div>
             </div>
           </motion.section>

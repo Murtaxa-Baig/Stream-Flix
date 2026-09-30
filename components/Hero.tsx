@@ -16,7 +16,7 @@ export default function Hero() {
           <span>Stream Flix &middot; Stream Flix (project-322314619931)</span>
         </div>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#131118] dark:text-white leading-[1.1] mb-8 tracking-tight mx-auto">
-          AI-Powered Movie Discovery & Summaries
+          Simultaneous Multi-Browser Search
         </h1>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
           Discover your next favorite film with Stream Flix. Get personalized AI movie recommendations, explore detailed cast and movie info, and read custom summaries tailored to your preference—with or without spoilers.

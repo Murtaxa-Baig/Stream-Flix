@@ -15,7 +15,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 text-sm max-w-xs">
-              The ultimate AI movie discovery and recommendation platform. Find summaries, get personalized suggestions, and customize your experience.
+              The ultimate multi-browser simultaneous search assistant. Open in-app WebViews, search offline with downloaded AI models, and enjoy personalized browser control.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-12">

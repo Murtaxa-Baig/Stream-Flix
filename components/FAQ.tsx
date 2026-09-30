@@ -10,7 +10,7 @@ const faqs = [
     },
     {
         question: "Is my data secure?",
-        answer: "Yes, we use industry-standard encryption protocols (SSL/TLS) for all data transfers. We only process your movie searches, spoiler settings, and ratings to deliver tailored AI recommendations and summaries, and we protect your location and profile data securely.",
+        answer: "Yes, we use industry-standard encryption protocols (SSL/TLS) for all data transfers. We only process your search queries, selected browser preferences, and model downloads to deliver tailored in-app browser views and offline responses, and we protect your location and profile picture data securely.",
     },
     {
         question: "Do you offer a free trial?",

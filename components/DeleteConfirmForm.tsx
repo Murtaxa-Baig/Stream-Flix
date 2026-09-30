@@ -178,8 +178,8 @@ function DeleteConfirmFormContent() {
                                     CRITICAL WARNING
                                 </h3>
                                 <p className="text-xs text-red-700 dark:text-red-400 leading-relaxed">
-                                    This action is permanent and completely irreversible. All your custom movie recommendations, search history, saved movie lists, profile settings, and active subscriptions will be deleted immediately.
-                                </p>
+                                     This action is permanent and completely irreversible. All your custom browser search preferences, history, saved search configurations, profile settings, and active subscriptions will be deleted immediately.
+                                 </p>
                             </div>
                         </div>
 
