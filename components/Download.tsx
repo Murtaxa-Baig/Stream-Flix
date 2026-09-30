@@ -15,7 +15,7 @@ export default function Download() {
           viewport={{ once: true }}
           className="text-3xl font-bold text-[#131118] dark:text-white mb-12"
         >
-          Download Streaming Browser App
+          Download Stream Flix App
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {[

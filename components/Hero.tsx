@@ -11,11 +11,15 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="w-full max-w-4xl"
       >
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold bg-primary/10 text-primary mb-6 border border-primary/20">
+          <span className="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          <span>Stream Flix &middot; Stream Flix (project-322314619931)</span>
+        </div>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#131118] dark:text-white leading-[1.1] mb-8 tracking-tight mx-auto">
           AI-Powered Movie Discovery & Summaries
         </h1>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Discover your next favorite film with Streaming Browser. Get personalized AI movie recommendations, explore detailed cast and movie info, and read custom summaries tailored to your preference—with or without spoilers.
+          Discover your next favorite film with Stream Flix. Get personalized AI movie recommendations, explore detailed cast and movie info, and read custom summaries tailored to your preference—with or without spoilers.
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <motion.button

@@ -164,7 +164,7 @@ function DeleteConfirmFormContent() {
                                 Confirm Your Account Deletion
                             </h1>
                             <p className="text-gray-500 dark:text-gray-400 text-base">
-                                Verify your identity to permanently remove your Streaming Browser profile.
+                                Verify your identity to permanently remove your Stream Flix profile.
                             </p>
                         </div>
 

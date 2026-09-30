@@ -32,7 +32,7 @@ export default function Navbar() {
               href="/"
               className="text-[#131118] dark:text-white text-xl font-bold tracking-tight truncate"
             >
-              Streaming Browser
+              Stream Flix
             </Link>
           </div>
 

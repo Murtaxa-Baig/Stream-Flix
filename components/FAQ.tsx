@@ -14,7 +14,7 @@ const faqs = [
     },
     {
         question: "Do you offer a free trial?",
-        answer: "Absolutely! We offer a 3-day free trial that lets you explore the full potential of Streaming Browser. You can try all our advanced AI movie recommendation features and custom selective-spoiler summaries during this trial period before your subscription starts.",
+        answer: "Absolutely! We offer a 3-day free trial that lets you explore the full potential of Stream Flix. You can try all our advanced AI movie recommendation features and custom selective-spoiler summaries during this trial period before your subscription starts.",
     },
 ];
 

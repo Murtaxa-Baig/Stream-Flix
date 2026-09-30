@@ -20,7 +20,7 @@ export default function AboutSection() {
             Your Ultimate Movie Companion
           </h2>
           <p className="text-gray-600 dark:text-gray-400 mb-10 text-lg leading-relaxed max-w-2xl mx-auto">
-            Experience the next generation of film discovery. Streaming Browser provides
+            Experience the next generation of film discovery. Stream Flix provides
             a comprehensive suite of AI-powered tools designed to give you complete
             control over how you search, explore, and get recommendations for your next movie night.
           </p>
