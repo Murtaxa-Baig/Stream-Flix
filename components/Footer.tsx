@@ -10,8 +10,8 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Logo size={36} />
               <div className="flex flex-col">
-                <span className="text-xl font-bold">Stream Flix</span>
-                <span className="text-xs text-primary font-semibold">Stream Flix &middot; Project: project-322314619931</span>
+                <span className="text-xl font-bold">Stream+</span>
+                <span className="text-xs text-primary font-semibold">Stream+ &middot; Project: project-322314619931</span>
               </div>
             </div>
             <p className="text-gray-400 text-sm max-w-xs">

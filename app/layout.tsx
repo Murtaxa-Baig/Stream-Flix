@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Stream Flix | AI Movie Recommendations & Summaries",
-  description: "Stream Flix by AppNaya Technologies. Get personalized AI-based movie recommendations, explore movie details, and read custom summaries.",
+  title: "Stream+ | AI Movie Recommendations & Summaries",
+  description: "Stream+ by AppNaya Technologies. Get personalized AI-based movie recommendations, explore movie details, and read custom summaries.",
   verification: {
     google: "4edXJTMyV4nhq0qY_zalMGnNG0QlH5oEJP6IiO_9qlY",
   },

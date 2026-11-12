@@ -8,7 +8,7 @@ import Link from "next/link";
 function DeleteConfirmFormContent() {
     const router = useRouter();
     const searchParams = useSearchParams();
-    
+
     // States
     const [token, setToken] = useState("");
     const [otp, setOtp] = useState(["", "", "", "", "", ""]);
@@ -136,11 +136,10 @@ function DeleteConfirmFormContent() {
                         initial={{ opacity: 0, y: -50 }}
                         animate={{ opacity: 1, y: 20 }}
                         exit={{ opacity: 0, y: -50 }}
-                        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[100] px-6 py-3 rounded-xl shadow-2xl flex items-center gap-3 border ${
-                            toast.type === "success" 
-                                ? "bg-emerald-500 border-emerald-400 text-white" 
+                        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[100] px-6 py-3 rounded-xl shadow-2xl flex items-center gap-3 border ${toast.type === "success"
+                                ? "bg-emerald-500 border-emerald-400 text-white"
                                 : "bg-red-500 border-red-400 text-white"
-                        }`}
+                            }`}
                     >
                         <span className="material-symbols-outlined">
                             {toast.type === "success" ? "check_circle" : "error"}
@@ -164,7 +163,7 @@ function DeleteConfirmFormContent() {
                                 Confirm Your Account Deletion
                             </h1>
                             <p className="text-gray-500 dark:text-gray-400 text-base">
-                                Verify your identity to permanently remove your Stream Flix profile.
+                                Verify your identity to permanently remove your Stream+ profile.
                             </p>
                         </div>
 
@@ -192,7 +191,7 @@ function DeleteConfirmFormContent() {
                                             <span className="material-symbols-outlined text-sm">lock</span>
                                             <span>Secure Token Loaded</span>
                                         </div>
-                                        <button 
+                                        <button
                                             onClick={() => setIsTokenManual(true)}
                                             className="text-xs text-primary hover:underline font-bold transition-all"
                                         >
@@ -219,7 +218,7 @@ function DeleteConfirmFormContent() {
                                     <label className="block text-sm font-bold text-gray-900 dark:text-white text-center">
                                         Enter 6-Digit Verification Code
                                     </label>
-                                    
+
                                     <div className="flex justify-center gap-2 sm:gap-3" onPaste={handlePaste}>
                                         {otp.map((digit, idx) => (
                                             <input
@@ -244,9 +243,8 @@ function DeleteConfirmFormContent() {
                                     <button
                                         onClick={handleConfirmDelete}
                                         disabled={!canSubmit}
-                                        className={`w-full flex items-center justify-center rounded-xl h-14 px-8 bg-red-600 text-white hover:bg-red-700 text-base font-bold leading-normal transition-all shadow-lg shadow-red-600/20 active:scale-[0.98] ${
-                                            !canSubmit ? "opacity-50 cursor-not-allowed shadow-none" : ""
-                                        }`}
+                                        className={`w-full flex items-center justify-center rounded-xl h-14 px-8 bg-red-600 text-white hover:bg-red-700 text-base font-bold leading-normal transition-all shadow-lg shadow-red-600/20 active:scale-[0.98] ${!canSubmit ? "opacity-50 cursor-not-allowed shadow-none" : ""
+                                            }`}
                                     >
                                         {isLoading ? (
                                             <div className="flex items-center gap-2">
